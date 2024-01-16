@@ -1,10 +1,12 @@
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  @vite('resources/css/app.css')
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @vite('resources/css/app.css')
 </head>
+
 <body class="bg-gray-50">
     <header class="bg-white items-center justify-between w-full">
         <div class="border-b border-blue-200">
@@ -34,7 +36,7 @@
                     <li>Ру</li>
                     <li>
                         <button class="px-4 py-2 rounded-full bg-blue-700 text-white">
-                            Зарегистрироваться    
+                            Зарегистрироваться
                         </button>
                     </li>
                 </ul>
@@ -69,33 +71,33 @@
         <div class="flex space-x-4">
             <div class="border rounded-xl border-blue-200 p-2 bg-gradient-to-t from-purple-300 to-white">
                 <div class="rounded-full h-6 w-6 bg-gray-200"></div>
-                <div>Высокая скорость и стабильность</div>
-                <div class="text-xs">Мы арендуем мощные сервера по всему СНГ для того, чтобы ни один клиент не столкнулся с подтормаживанием при просмотре ваших уроков</div>
+                <div>Высокая скоростьи стабильность</div>
+                <div class="text-xs">Мы арендуем мощные сервера по всему СНГдля того, чтобы ни один клиент не столкнулсяс подтормаживанием при просмотре ваших уроков</div>
             </div>
             <div class="border rounded-xl border-blue-200 p-2 bg-gradient-to-t from-purple-300 to-white">
                 <div class="rounded-full h-6 w-6 bg-gray-200"></div>
-                <div>Высокая скорость и стабильность</div>
-                <div class="text-xs">Мы арендуем мощные сервера по всему СНГ для того, чтобы ни один клиент не столкнулся с подтормаживанием при просмотре ваших уроков</div>
+                <div>Высокая скоростьи стабильность</div>
+                <div class="text-xs">Мы арендуем мощные сервера по всему СНГдля того, чтобы ни один клиент не столкнулсяс подтормаживанием при просмотре ваших уроков</div>
             </div>
             <div class="border rounded-xl border-blue-200 p-2 bg-gradient-to-t from-purple-300 to-white">
                 <div class="rounded-full h-6 w-6 bg-gray-200"></div>
-                <div>Высокая скорость и стабильность</div>
-                <div class="text-xs">Мы арендуем мощные сервера по всему СНГ для того, чтобы ни один клиент не столкнулся с подтормаживанием при просмотре ваших уроков</div>
+                <div>Высокая скоростьи стабильность</div>
+                <div class="text-xs">Мы арендуем мощные сервера по всему СНГдля того, чтобы ни один клиент не столкнулсяс подтормаживанием при просмотре ваших уроков</div>
             </div>
             <div class="border rounded-xl border-blue-200 p-2 bg-gradient-to-t from-purple-300 to-white">
                 <div class="rounded-full h-6 w-6 bg-gray-200"></div>
-                <div>Высокая скорость и стабильность</div>
-                <div class="text-xs">Мы арендуем мощные сервера по всему СНГ для того, чтобы ни один клиент не столкнулся с подтормаживанием при просмотре ваших уроков</div>
+                <div>Высокая скоростьи стабильность</div>
+                <div class="text-xs">Мы арендуем мощные сервера по всему СНГдля того, чтобы ни один клиент не столкнулсяс подтормаживанием при просмотре ваших уроков</div>
             </div>
             <div class="border rounded-xl border-blue-200 p-2 bg-gradient-to-t from-purple-300 to-white">
                 <div class="rounded-full h-6 w-6 bg-gray-200"></div>
-                <div>Высокая скорость и стабильность</div>
-                <div class="text-xs">Мы арендуем мощные сервера по всему СНГ для того, чтобы ни один клиент не столкнулся с подтормаживанием при просмотре ваших уроков</div>
+                <div>Высокая скоростьи стабильность</div>
+                <div class="text-xs">Мы арендуем мощные сервера по всему СНГдля того, чтобы ни один клиент не столкнулсяс подтормаживанием при просмотре ваших уроков</div>
             </div>
             <div class="border rounded-xl border-blue-200 p-2 bg-gradient-to-t from-purple-300 to-white">
                 <div class="rounded-full h-6 w-6 bg-gray-200"></div>
-                <div>Высокая скорость и стабильность</div>
-                <div class="text-xs">Мы арендуем мощные сервера по всему СНГ для того, чтобы ни один клиент не столкнулся с подтормаживанием при просмотре ваших уроков</div>
+                <div>Высокая скоростьи стабильность</div>
+                <div class="text-xs">Мы арендуем мощные сервера по всему СНГдля того, чтобы ни один клиент не столкнулсяс подтормаживанием при просмотре ваших уроков</div>
             </div>
         </div>
     </div>
@@ -107,25 +109,25 @@
             <div>
                 <div class="text-lg text-blue-600 font-bold text-center">124 платформы</div>
                 <div class="text-center text-sm">
-                Запущено для проведения курсов, вебинаров, тренингов и мастер-классов
+                    Запущено для проведения курсов, вебинаров, тренингов и мастер-классов
                 </div>
             </div>
             <div>
                 <div class="text-lg text-blue-600 font-bold text-center">$270,000</div>
                 <div class="text-center text-sm">
-                Суммарный доход всех запущенных платформ
+                    Суммарный доход всех запущенных платформ
                 </div>
             </div>
             <div>
                 <div class="text-lg text-blue-600 font-bold text-center">8000+</div>
                 <div class="text-center text-sm">
-                Студентов просмотрели курсы, вебинары и тренинги
+                    Студентов просмотрели курсы,вебинары и тренинги
                 </div>
             </div>
             <div>
                 <div class="text-lg text-blue-600 font-bold text-center">20 часов</div>
                 <div class="text-center text-sm">
-                Среднее время подготовки новой платформы для работы
+                    Среднее время подготовки новой платформы для работы
                 </div>
             </div>
         </div>
@@ -224,7 +226,7 @@
                     <li>Платформа для вебинара</li>
                     <li>Чат и рассылка по клиентам</li>
                     <li>Автоворонка</li>
-                    <li>Отправка записей и материалов на почту участникам</li>
+                    <li>Отправка записей и материаловна почту участникам</li>
                 </ul>
                 <button>Заказать</button>
             </div>
@@ -239,7 +241,7 @@
                     <li>Платформа для вебинара</li>
                     <li>Чат и рассылка по клиентам</li>
                     <li>Автоворонка</li>
-                    <li>Отправка записей и материалов на почту участникам</li>
+                    <li>Отправка записей и материаловна почту участникам</li>
                 </ul>
                 <button>Заказать</button>
             </div>
@@ -254,7 +256,7 @@
                     <li>Платформа для вебинара</li>
                     <li>Чат и рассылка по клиентам</li>
                     <li>Автоворонка</li>
-                    <li>Отправка записей и материалов на почту участникам</li>
+                    <li>Отправка записей и материаловна почту участникам</li>
                 </ul>
                 <button>Заказать</button>
             </div>
@@ -316,7 +318,7 @@
     <div class="max-w-7xl mx-auto flex">
         <div class="flex-row">
             <div>Форма обратной связи</div>
-            <div>Ваше удобное средство для выражения мнения, задания вопросов или предоставления отзывов. Мы готовы слушать вас и стремимся улучшить наши услуги на основе ваших пожеланий</div>
+            <div>Ваше удобное средство для выражения мнения, задания вопросов или предоставления отзывов. Мы готовы слушать васи стремимся улучшить наши услуги на основе ваших пожеланий</div>
             <div class="flex">
                 <div>998 90 540 70 50</div>
                 <div>help@mercuryedu.uz</div>
@@ -365,4 +367,5 @@
         </div>
     </div>
 </body>
+
 </html>
