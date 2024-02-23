@@ -127,40 +127,43 @@
         </div>
     </div>
 
-    <!-- Achievements -->
-    <div class="flex-row max-w-7xl mx-auto items-center justify-between mt-12">
-        <div class="font-bold text-center text-2xl md:text-3xl lg:text-4xl xl:text-5xl">100+ курсов в Узбекистане запущено</br>
-            через <span class="text-blue-700">Mercury</span></div>
-        <div class="flex">
-            <div>
-                <div class="text-lg text-blue-600 font-bold text-center">124 платформы</div>
-                <div class="text-center text-sm">
-                    Запущено для проведения курсов, вебинаров, тренингов и мастер-классов
-                </div>
+<!-- Achievements -->
+<div class="flex-row max-w-7xl mx-auto items-center justify-between mt-20 mb-60">
+    <div class="text-center font-bold text-3xl ">100+ курсов в Узбекистане запущено</br>
+        через <span class="text-blue-700">Mercury</span></div>
+    <div class="flex">
+        <div>
+            <div class="text-2xl text-blue-700 font-bold text-center decoration-blue-200 relative top-14 left-10">124 платформы</div>
+            <div class="text-center font-semibold text-sm relative top-20 left-10">
+                Запущено для проведения курсов,<br>вебинаров, тренингов и мастер-классов
+                <img src="{{asset("/images/vektor-1.png")}}" alt="vector rasmi" class="w-40 relative top-7 left-32">
             </div>
-            <div>
-                <div class="text-lg text-blue-600 font-bold text-center">$270,000</div>
-                <div class="text-center text-sm">
-                    Суммарный доход всех запущенных платформ
-                </div>
+        </div>
+        <div>
+            <div class="text-2xl text-blue-700 font-bold text-center relative top-44 left-24">$270,000</div>
+            <div class="text-center font-semibold text-sm relative top-48 left-24">
+                Суммарный доход всех запущенных<br> платформ
+                <img src="{{asset("/images/vektor-2.png")}}" alt="vector rasmi" class=" w-40 relative bottom-48 left-32 ">
             </div>
-            <div>
-                <div class="text-lg text-blue-600 font-bold text-center">8000+</div>
-                <div class="text-center text-sm">
-                    Студентов просмотрели курсы,вебинары и тренинги
-                </div>
+        </div>
+        <div>
+            <div class="text-3xl text-blue-700 font-bold text-center relative top-16 left-44">8000+</div>
+            <div class="text-center font-semibold text-sm relative top-20 left-44">
+                Студентов просмотрели курсы,<br>вебинары и тренинги
+                <img src="{{asset("/images/vektor-3.png")}}" alt="vector rasmi" class=" w-40 relative top-5 left-28">
             </div>
-            <div>
-                <div class="text-lg text-blue-600 font-bold text-center">20 часов</div>
-                <div class="text-center text-sm">
-                    Среднее время подготовки новой платформы для работы
-                </div>
+        </div>
+        <div>
+            <div class="text-3xl text-blue-700 font-bold text-center relative top-40 left-72">20 часов</div>
+            <div class="text-center font-semibold text-sm relative left-72 top-44">
+                Среднее время подготовки новой<br> платформы для работы
             </div>
         </div>
     </div>
+</div>
 
     <!-- Demo request -->
-    <div class="w-full bg-gradient-to-r from-purple-600 via-blue-600 to-blue-900 float">
+    <div class="w-full bg-gradient-to-r from-purple-600 via-blue-600 to-blue-900 float ">
         <div class="max-w-7xl mx-auto grid grid-cols-2 py-40">
             <div class="text-gray-200 text-2xl font-semibold leading-13 tracking-normal text-left">
                 Вы хотите запросить демо-версию </br> или просто задать вопрос? Напишите нам
