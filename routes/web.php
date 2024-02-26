@@ -25,3 +25,7 @@ Route::get('/landing', function () {
 Route::get('/student', function () {
     return view('student');
 });
+
+Route::get('/cource', function () {
+    return view('cource');
+});

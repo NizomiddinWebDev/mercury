@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="text-blue-600 font-semibold">
-                    Студентам
+                    Бизнес студентам
                 </div>
             </div>
         </div>
@@ -51,9 +51,10 @@
                         </option>
                     </select>
                     <li>
-                        <button class="px-3 py-3 rounded-full bg-blue-700 text-white">
-                            Зарегистрироваться
-                        </button>
+                        <img src="{{ asset('/images/user-circle.png') }}" alt="">
+                    </li>
+                    <li>
+                        Mansur</br>Usmanov
                     </li>
                 </ul>
             </div>
@@ -62,75 +63,62 @@
 
 
     <!-- Banner -->
-    <div
-        class="flex max-w-7xl mx-auto place-items-center mt-12  rounded-2xl bg-gradient-to-r from-violet-500 to-blue-600 ">
-        <div class="flex-row grid gap-16 px-16 py-18">
-            <div class="font-semibold text-5xl leading-20 tracking-normal text-white text-left">
-                Не огорчяйся, новая</br> платформа для обучения
+    <div class="bg-gradient-to-r from-violet-500 to-blue-600">
+        <div class="flex max-w-7xl mx-auto place-items-center">
+            <div class="flex-row grid gap-16 mt-8 py-18">
+                <div>
+                    <ul
+                        class="flex place-items-center text-base font-normal leading-6 tracking-normal text-white space-x-2">
+                        <li>Курсы</li>
+                        <li>
+                            <img src="{{ asset('/images/arrow-right-01-sharp.png') }}" alt="">
+                        </li>
+                        <li>
+                            Трейдинг
+                        </li>
+                        <li>
+                            <img src="{{ asset('/images/arrow-right-01-sharp.png') }}" alt="">
+                        </li>
+                        <li>Оффлайн курс</li>
+                    </ul>
+                </div>
+                <div class="space-y-4 my-8 mb-10">
+                    <div class="font-semibold text-5xl leading-20 tracking-normal text-white text-left">
+                        Оффлайн курс по трейдингу
+                    </div>
+                    <div class="text-base font-normal leading-6 tracking-normal text-white">
+                        Обучающая программа, предназначенная для того, чтобы научить людей,</br>как успешно торговать на
+                        финансовых рынках.
+                    </div>
+                </div>
+                <div></div>
             </div>
-            <div class="text-base font-normal leading-6 tracking-normal text-white">
-                Популярные онлайн и оффлайн курсы теперь у тебя под рукой, только выбери свой любимый курс и
-                наслаждайся!
-            </div>
-            <div>
-                <button class="py-4 px-8 w-60  rounded-full text-base font-semibold  gap-10 bg-slate-950 text-white ">
-                    Присоединиться
-                </button>
-            </div>
-        </div>
-        <div>
-            <img src="{{ asset('/images/student.png') }}" alt="banner">
         </div>
     </div>
 
-    <!-- Features -->
+    <!--Features-->
     <div class="flex-row max-w-7xl mx-auto mt-12">
-        <div class=" font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center ">
-            <span class="text-blue-700">Mercury</span> — это ...
-        </div>
-        <div class="flex space-x-4 mt-12">
-            <div class="border rounded-xl border-blue-200 p-2 bg-gradient-to-t from-purple-300 to-white   ">
-                <img src="{{ asset('/images/elements.png') }}" alt="wifi"
-                    class="rounded-full w-14 h-14 p-3 bg-gray-200 relative left-56 top-4">
-                <div class="p-4 space-y-4">
-                    <div class="text-lg tracking-normal font-medium ">Высокая скорость</br> и стабильность</div>
-                    <div class="text-sm  leading-6">Мы арендуем мощные сервера по всему СНГдля того, чтобы ни один
-                        клиент не
-                        столкнулсяс подтормаживанием при просмотре ваших уроков</div>
+       <div class="flex">
+            <div class="flex-row ">
+                <div class="text-2xl font-medium leading-11 tracking-normal text-left  ">Описание</div>
+                <div class="mt-12">Обучающая программа, которая помогает людям научиться торговать на финансовых рынках. Он включает в себя
+                    изучение основ рынка, анализа цен, фундаментальных факторов, управления рисками, и психологии трейдинга.
+                    Курсы могут быть доступны в разных форматах и помогают студентам развивать навыки для успешной торговли.
+                    Следует помнить, что трейдинг связан с финансовыми рисками, и успешный трейдер должен обладать хорошей
+                    подготовкой, дисциплиной и умением адаптироваться к изменяющимся рыночным условиям.</div>
+                <div>
+                    <div class="flex items-center text-blue-600 font-semibold mt-4">
+                        <button>Развернуть</button>
+                        <div class="mt-1 mx-2"><img src="{{asset("/images/arrow-down-01-sharp.png")}}" alt=""></div>
+                    </div>
+
                 </div>
             </div>
-            <div class="border rounded-xl border-blue-200 p-2 bg-gradient-to-t from-purple-300 to-white   ">
-                <img src="{{ asset('/images/elements.png') }}" alt="wifi"
-                    class="rounded-full w-14 h-14 p-3 bg-gray-200 relative left-56 top-4">
-                <div class="p-4 space-y-4">
-                    <div class="text-lg tracking-normal font-medium ">Высокая скорость</br> и стабильность</div>
-                    <div class="text-sm  leading-6">Мы арендуем мощные сервера по всему СНГдля того, чтобы ни один
-                        клиент не
-                        столкнулсяс подтормаживанием при просмотре ваших уроков</div>
-                </div>
-            </div>
-            <div class="border rounded-xl border-blue-200 p-2 bg-gradient-to-t from-purple-300 to-white   ">
-                <img src="{{ asset('/images/elements.png') }}" alt="wifi"
-                    class="rounded-full w-14 h-14 p-3 bg-gray-200 relative left-56 top-4">
-                <div class="p-4 space-y-4">
-                    <div class="text-lg tracking-normal font-medium ">Высокая скорость</br> и стабильность</div>
-                    <div class="text-sm  leading-6">Мы арендуем мощные сервера по всему СНГдля того, чтобы ни один
-                        клиент не
-                        столкнулсяс подтормаживанием при просмотре ваших уроков</div>
-                </div>
-            </div>
-            <div class="border rounded-xl border-blue-200 p-2 bg-gradient-to-t from-purple-300 to-white   ">
-                <img src="{{ asset('/images/elements.png') }}" alt="wifi"
-                    class="rounded-full w-14 h-14 p-3 bg-gray-200 relative left-56 top-4">
-                <div class="p-4 space-y-4">
-                    <div class="text-lg tracking-normal font-medium ">Высокая скорость</br> и стабильность</div>
-                    <div class="text-sm  leading-6">Мы арендуем мощные сервера по всему СНГдля того, чтобы ни один
-                        клиент не
-                        столкнулсяс подтормаживанием при просмотре ваших уроков</div>
-                </div>
-            </div>
-        </div>
+       </div>
     </div>
+
+
+
 
     <!--Card-->
     <div class="flex-row max-w-7xl mx-auto  mt-20">
