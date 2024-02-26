@@ -98,19 +98,56 @@
 
     <!--Features-->
     <div class="flex-row max-w-7xl mx-auto mt-12">
-       <div class="flex">
-            <div class="flex-row ">
+       <div class="flex gap-10">
+            <div class="flex-row w-3/4">
                 <div class="text-2xl font-medium leading-11 tracking-normal text-left  ">Описание</div>
                 <div class="mt-12">Обучающая программа, которая помогает людям научиться торговать на финансовых рынках. Он включает в себя
                     изучение основ рынка, анализа цен, фундаментальных факторов, управления рисками, и психологии трейдинга.
                     Курсы могут быть доступны в разных форматах и помогают студентам развивать навыки для успешной торговли.
                     Следует помнить, что трейдинг связан с финансовыми рисками, и успешный трейдер должен обладать хорошей
                     подготовкой, дисциплиной и умением адаптироваться к изменяющимся рыночным условиям.</div>
-                <div>
+                <div class="flex-row ">
                     <div class="flex items-center text-blue-600 font-semibold mt-4">
                         <button>Развернуть</button>
                         <div class="mt-1 mx-2"><img src="{{asset("/images/arrow-down-01-sharp.png")}}" alt=""></div>
                     </div>
+
+                </div>
+            </div>
+            <div class="rounded-2xl w-1/4 p-10  shadow-xl shadow-gray-200">
+                <div>
+                    <div class="flex-row space-y-5">
+                        <div class="text-lg font-semibold leading-7 tracking-normal text-left">Курс содержит:</div>
+                        <ul class="flex-row space-y-4 text-base font-normal leading-6 tracking-normal">
+                            <li class="flex gap-4 mt-4">
+                                <div>
+                                    <img src="{{asset("/images/students/card/elements-1.png")}}" alt="ima">
+                                </div>
+                                66,5 ч видеоуроков
+                            </li>
+                            <li class="flex gap-4">
+                                <div>
+                                    <img src="{{asset("/images/students/card/notebook-01.png")}}" alt="ima">
+                                </div>
+                                50 домашних заданий
+                            </li>
+                            <li class="flex gap-4">
+                                <div>
+                                    <img src="{{asset("/images/students/card/note.png")}}" alt="ima">
+                                </div>
+                                10 допольнительных уроков
+                            </li>
+                            <li class="flex gap-4">
+                                <div>
+                                    <img src="{{asset("/images/students/card/text-firstline-right.png")}}" alt="ima">
+                                </div>
+                                5 тестов для закрепления
+                            </li>
+                        </ul>
+                        <hr>
+                    </div>
+                </div>
+                <div>
 
                 </div>
             </div>
